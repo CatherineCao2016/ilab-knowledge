@@ -1,0 +1,214 @@
+---
+created_by: CatherineCao2016
+document:
+  commit: dec25bd7dfc80af9b79e458e0c51ed898624d5fd
+  patterns:
+  - wx_doc_extractions/gs-consolidated-financials-2023.md
+  repo: https://github.com/CatherineCao2016/ilab-knowledge
+document_outline: financial statements
+domain: finance
+seed_examples:
+- context: |-
+    ## Consolidated Income Statement
+
+    | Year Ended December ($ in millions) | 2023   | 2022   |
+    |------------------------------------|--------|--------|
+    | Gains or losses from financial instruments at fair value through profit or loss | $10,328 | $10,216 |
+    | Fees and commissions               | 1,912  | 2,082  |
+    | Other income                       | 1,459  | (9)    |
+    | Non-interest income                | 13,699 | 12,289 |
+    | Interest income from financial instruments measured at fair value through profit or loss | 11,339 | 4,718  |
+    | Interest income from financial instruments measured at fair value through other comprehensive income | 10 | 10 |
+    | Interest income from financial instruments measured at amortised cost | 13,654 | 4,405  |
+    | Interest expense from financial instruments measured at fair value through profit or loss | (11,127) | (4,429) |
+    | Interest expense from financial instruments measured at amortised cost | (15,496) | (5,826) |
+    | Net interest expense               | (1,620) | (1,122) |
+    | Net revenues                       | 12,079 | 11,167  |
+    | Impairments on financial instruments | 12  | (95)   |
+    | Net operating expenses             | (6,258) | (5,954) |
+    | Profit before taxation             | 5,833  | 5,118  |
+    | Income tax expense                 | (1,137) | (1,001) |
+    | **Profit for the financial year**  | **$4,696** | **$4,117** |
+  questions_and_answers:
+  - answer: "The total net revenues for the year 2023 were $12,079 million."
+    question: "What was the total net revenues for the year 2023?"
+  - answer: "The profit for the financial year increased from $4,117 million in 2022\
+      \ to $4,696 million in 2023, reflecting a growth of $579 million."
+    question: How did the profit for the financial year change from 2022 to 2023?
+  - answer: "Net operating expenses increased from $5,954 million in 2022 to $6,258\
+      \ million in 2023, representing an increase of $304 million."
+    question: What was the change in net operating expenses between 2022 and 2023?
+- context: |-
+    ## Consolidated Balance Sheet
+
+    | As of December ($ in millions) | 2023     | 2022     |
+    |--------------------------------|----------|----------|
+    | **Assets**                     |          |          |
+    | Cash and cash equivalents       | $55,362  | $29,822  |
+    | Collateralised agreements       | 279,247  | 247,701  |
+    | Customer and other receivables  | 72,647   | 78,944   |
+    | Trading assets                  | 832,164  | 876,265  |
+    | Investments                     | 3,324    | 3,409    |
+    | Loans                           | 8,373    | 9,426    |
+    | Investment property             | -        | 20       |
+    | Other assets                    | 8,104    | 8,023    |
+    | **Total assets**                | **$1,259,221** | **$1,253,610** |
+
+    | **Liabilities**                 |          |          |
+    | Collateralised financings        | $181,834 | $99,775  |
+    | Customer and other payables      | 114,783  | 111,421  |
+    | Trading liabilities             | 737,366  | 843,676  |
+    | Deposits                        | 80,721   | 67,342   |
+    | Unsecured borrowings            | 93,770   | 79,517   |
+    | Other liabilities               | 5,032    | 4,644    |
+    | **Total liabilities**           | **$1,213,506** | **$1,206,375** |
+
+    | **Shareholder’s equity**        |          |          |
+    | Share capital                   | $2,135   | $2,135   |
+    | Share premium account           | 388      | 388      |
+    | Other equity instruments        | 5,500    | 8,300    |
+    | Other reserves                  | 242      | 425      |
+    | Retained earnings               | 38,082   | 36,424   |
+    | Accumulated other comprehensive income | (632) | (437) |
+    | **Total shareholder’s equity**  | **$45,715** | **$47,235** |
+
+    | **Total liabilities and shareholder’s equity** | **$1,259,221** | **$1,253,610** |
+  questions_and_answers:
+  - answer: "The total value of assets as of December 2023 was $1,259,221 million."
+    question: What was the total value of assets as of December 2023?
+  - answer: "Trading liabilities decreased from $843,676 million in 2022 to $737,366\
+      \ million in 2023, reflecting a reduction of $106,310 million."
+    question: How did the trading liabilities change from 2022 to 2023?
+  - answer: "The total shareholder’s equity in 2023 was $45,715 million, which decreased\
+      \ from $47,235 million in 2022, reflecting a decline of $1,520 million."
+    question: "What was the total shareholder’s equity in 2023, and how did it compare\
+      \ to 2022?"
+- context: |-
+    ## Consolidated Balance Sheet
+
+    | As of December ($ in millions) | 2023     | 2022     |
+    |--------------------------------|----------|----------|
+    | **Assets**                     |          |          |
+    | Cash and cash equivalents       | $55,362  | $29,822  |
+    | Collateralised agreements       | 279,247  | 247,701  |
+    | Customer and other receivables  | 72,647   | 78,944   |
+    | Trading assets                  | 832,164  | 876,265  |
+    | Investments                     | 3,324    | 3,409    |
+    | Loans                           | 8,373    | 9,426    |
+    | Investment property             | -        | 20       |
+    | Other assets                    | 8,104    | 8,023    |
+    | **Total assets**                | **$1,259,221** | **$1,253,610** |
+
+    | **Liabilities**                 |          |          |
+    | Collateralised financings        | $181,834 | $99,775  |
+    | Customer and other payables      | 114,783  | 111,421  |
+    | Trading liabilities             | 737,366  | 843,676  |
+    | Deposits                        | 80,721   | 67,342   |
+    | Unsecured borrowings            | 93,770   | 79,517   |
+    | Other liabilities               | 5,032    | 4,644    |
+    | **Total liabilities**           | **$1,213,506** | **$1,206,375** |
+
+    | **Shareholder’s equity**        |          |          |
+    | Share capital                   | $2,135   | $2,135   |
+    | Share premium account           | 388      | 388      |
+    | Other equity instruments        | 5,500    | 8,300    |
+    | Other reserves                  | 242      | 425      |
+    | Retained earnings               | 38,082   | 36,424   |
+    | Accumulated other comprehensive income | (632) | (437) |
+    | **Total shareholder’s equity**  | **$45,715** | **$47,235** |
+
+    | **Total liabilities and shareholder’s equity** | **$1,259,221** | **$1,253,610** |
+  questions_and_answers:
+  - answer: "$1,259,221 million."
+    question: "What was Goldman Sachs Group UK Limited's total assets as of December\
+      \ 31, 2023?"
+  - answer: "$5,833 million."
+    question: "How much profit before taxation did Goldman Sachs Group UK Limited\
+      \ report for the year ended December 31, 2023?"
+  - answer: "The transfer of its U.K. asset management business to Goldman Sachs Asset\
+      \ Management International (GSAMI), receiving a non-controlling interest in\
+      \ GSAMI’s immediate parent undertaking as consideration."
+    question: What transaction resulted in a $1.42 billion gain for Goldman Sachs
+      Group UK Limited in 2023?
+- context: |-
+    ## Consolidated Balance Sheet
+
+    | As of December ($ in millions) | 2023     | 2022     |
+    |--------------------------------|----------|----------|
+    | **Assets**                     |          |          |
+    | Cash and cash equivalents       | $55,362  | $29,822  |
+    | Collateralised agreements       | 279,247  | 247,701  |
+    | Customer and other receivables  | 72,647   | 78,944   |
+    | Trading assets                  | 832,164  | 876,265  |
+    | Investments                     | 3,324    | 3,409    |
+    | Loans                           | 8,373    | 9,426    |
+    | Investment property             | -        | 20       |
+    | Other assets                    | 8,104    | 8,023    |
+    | **Total assets**                | **$1,259,221** | **$1,253,610** |
+
+    | **Liabilities**                 |          |          |
+    | Collateralised financings        | $181,834 | $99,775  |
+    | Customer and other payables      | 114,783  | 111,421  |
+    | Trading liabilities             | 737,366  | 843,676  |
+    | Deposits                        | 80,721   | 67,342   |
+    | Unsecured borrowings            | 93,770   | 79,517   |
+    | Other liabilities               | 5,032    | 4,644    |
+    | **Total liabilities**           | **$1,213,506** | **$1,206,375** |
+
+    | **Shareholder’s equity**        |          |          |
+    | Share capital                   | $2,135   | $2,135   |
+    | Share premium account           | 388      | 388      |
+    | Other equity instruments        | 5,500    | 8,300    |
+    | Other reserves                  | 242      | 425      |
+    | Retained earnings               | 38,082   | 36,424   |
+    | Accumulated other comprehensive income | (632) | (437) |
+    | **Total shareholder’s equity**  | **$45,715** | **$47,235** |
+
+    | **Total liabilities and shareholder’s equity** | **$1,259,221** | **$1,253,610** |
+  questions_and_answers:
+  - answer: "Cash and cash equivalents increased from $29,822 million in 2022 to $55,362\
+      \ million in 2023, reflecting an increase of $25,540 million."
+    question: What was the change in cash and cash equivalents from 2022 to 2023?
+  - answer: "Collateralised financings saw the largest increase, rising from $99,775\
+      \ million in 2022 to $181,834 million in 2023 — an increase of $82,059 million."
+    question: Which liability category saw the largest increase between 2022 and 2023?
+  - answer: "Retained earnings increased from $36,424 million in 2022 to $38,082 million\
+      \ in 2023, reflecting a growth of $1,658 million."
+    question: How did retained earnings change from 2022 to 2023?
+- context: |-
+    ## Consolidated Income Statement
+
+    | Year Ended December ($ in millions) | 2023   | 2022   |
+    |------------------------------------|--------|--------|
+    | Gains or losses from financial instruments at fair value through profit or loss | $10,328 | $10,216 |
+    | Fees and commissions               | 1,912  | 2,082  |
+    | Other income                       | 1,459  | (9)    |
+    | Non-interest income                | 13,699 | 12,289 |
+    | Interest income from financial instruments measured at fair value through profit or loss | 11,339 | 4,718  |
+    | Interest income from financial instruments measured at fair value through other comprehensive income | 10 | 10 |
+    | Interest income from financial instruments measured at amortised cost | 13,654 | 4,405  |
+    | Interest expense from financial instruments measured at fair value through profit or loss | (11,127) | (4,429) |
+    | Interest expense from financial instruments measured at amortised cost | (15,496) | (5,826) |
+    | Net interest expense               | (1,620) | (1,122) |
+    | Net revenues                       | 12,079 | 11,167  |
+    | Impairments on financial instruments | 12  | (95)   |
+    | Net operating expenses             | (6,258) | (5,954) |
+    | Profit before taxation             | 5,833  | 5,118  |
+    | Income tax expense                 | (1,137) | (1,001) |
+    | **Profit for the financial year**  | **$4,696** | **$4,117** |
+  questions_and_answers:
+  - answer: "In 2023, gains or losses from financial instruments at fair value through\
+      \ profit or loss contributed $10,328 million, while fees and commissions contributed\
+      \ $1,912 million. Therefore, gains or losses from financial instruments had\
+      \ a significantly higher contribution to non-interest income."
+    question: "What contributed more to non-interest income in 2023: gains or losses\
+      \ from financial instruments at fair value through profit or loss, or fees and\
+      \ commissions?"
+  - answer: "\"Other income\" increased dramatically from $(9) million in 2022 to\
+      \ $1,459 million in 2023, reflecting a significant positive shift."
+    question: How did the "Other income" category change from 2022 to 2023?
+  - answer: "The income tax expense in 2023 was $1,137 million, up from $1,001 million\
+      \ in 2022, indicating a higher tax expense in 2023."
+    question: "What was the income tax expense in 2023, and how did it compare to\
+      \ the previous year?"
+version: 3
